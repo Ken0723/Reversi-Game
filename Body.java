@@ -41,7 +41,7 @@ public class Assignment {
                 for (; check = true;) {
                     opponent = 2;
                     System.out.println();
-                    System.out.print("Please enter the position of '1' :");
+                    System.out.print("Please enter the position of '1', Example: 1 3 (X Y):");
                     rows = kb.nextInt();
                     cols = kb.nextInt();
 
@@ -63,7 +63,7 @@ public class Assignment {
                 for (; check = true;) {
                     opponent = 1;
                     System.out.println();
-                    System.out.print("Please enter the position of '2' :");
+                    System.out.print("Please enter the position of '2' , Example: 1 3 (X Y):");
                     rows = kb.nextInt();
                     cols = kb.nextInt();
 
